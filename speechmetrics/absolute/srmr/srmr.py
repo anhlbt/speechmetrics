@@ -12,7 +12,7 @@ from .modulation_filters import compute_modulation_cfs, modulation_filterbank,\
                                 modfilt
 from gammatone.fftweight import fft_gtgram
 from gammatone.filters import centre_freqs, make_erb_filters, erb_filterbank
-from srmrpy.segmentaxis import segment_axis
+from srmr.segmentaxis import segment_axis
 
 from scipy.io.wavfile import read as readwav
 
