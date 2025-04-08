@@ -100,7 +100,7 @@ class MOSNet(Metric):
         mag = np.abs(linear)  # (1+n_fft/2, T)
 
         # shape in (T, 1+n_fft/2)
-        mag = np.transpose(mag.astype(np.float32))
+        mag = np.transpose(mag.astype(float))
 
         # now call the actual MOSnet
         return {'mosnet':
